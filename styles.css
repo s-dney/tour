@@ -61,3 +61,23 @@ br { font-size: 400%; }
 .U:hover ~ .description::after {
   content: "There's a hamper here, filled with various black clothes."
 }
+
+.toilet:hover ~ .description::after {
+  content: "A small toilet stall with a white porcelain toilet and a metal shelf."
+}
+
+.sink:hover ~ .description::after {
+  content: "A small sink with a one-handled faucet and metal grate at the bottom. There's little strands of hair in it. On the counter around the sink are a bottle of aloe hand soap, two water bottles, one empty mug, a small funnel, a washcloth, a hand mirror, a package of hydrogen peroxide wipes, a set of hair-cutting scissors, a tub of moisturizer, and a travel comb. There's also a mirror above the sink. You look nice today."
+}
+
+.shower:hover ~ .description::after {
+  content: "A tiny shower stall with a little metal shelf containing a bar of castile soap, a bottle of blue face wash, and a bottle of shampoo. The shower fixture is silver and one-handled like the sink. If you turn on the showerhead, it's deafeningly loud for some reason."
+}
+
+.printdesk:hover ~ .description::after {
+  content: "A small plastic-topped wood-finish desk. On it there's a pad of newsprint, four large bottles of ink, a cup full of paintbrushes, a clear plastic cup full of dirty water, a three-hole puncher, the cap of a medicine bottle, a boxcutter, a cutting mat, a small linoleum cut of a fish and a lamp."
+}
+
+.springs:hover ~ .description::after {
+  content: "It's basically a metal rectangle with a springy net of metal inside. Placed on top of it are four pages of 8x10\" paper covered in drying ink."
+}
