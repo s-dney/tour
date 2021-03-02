@@ -2,3 +2,62 @@
   font-family: monospace;
   white-space: pre
 }
+
+.description {
+  white-space: normal;
+  width: 100%;
+}
+
+br { font-size: 400%; }
+
+.ampersand {
+  color: blue
+}
+
+.ampersand:hover ~ .description::after {
+  content: "That's you."
+}
+
+.rainboots:hover ~ .description::after {
+  content: "Some small blue rainboots. The floor around them is encrusted with salt."
+}
+
+.guitar:hover ~ .description::after {
+  content: "There's a guitar on this couch."
+}
+
+.minifridge:hover ~ .description::after {
+  content: "In the minifridge there is a pack of white cheddar cheese slices, a pack of tortillas with two left, a bottle of milk and a weird red jar."
+}
+
+.table:hover ~ .description::after {
+  content: "On the low coffee table sits a pitcher of water, a cold mug of tea, a roll of paper towels, a Valentine's day card, a jar of Vegemite, and a jar of peanut butter."
+}
+
+.chairs:hover ~ .description::after {
+  content: "Two red pleather chairs. If you got up on the backs of them you could probably climb up onto the fireplace mantel, but you don't want to die so you decide not to."
+}
+
+.couch:hover ~ .description::after {
+  content: "It's a couch."
+}
+
+.bed:hover ~ .description::after {
+  content: "A bare blue mattress on a wooden bedframe."
+}
+
+.s:hover ~ .description::after {
+  content: "There are some black socks on the floor."
+}
+
+.desk1:hover ~ .description::after {
+  content: "This desk has on it a lamp, a printer, several stacks of papers, two prescription pill bottles, two water bottles, an empty Club crackers box, a tin of salt, a pair of sunglasses, a straightedge, and a pack of silicone earplugs."
+}
+
+.desk2:hover ~ .description::after {
+  content: "This desk has on it a cutting mat, a laptop, a pencil cup, a clear plastic cup filled with salt, a half-empty bottle of hand sanitizer, a cold mug of tea, various papers, and a protein bar."
+}
+
+.U:hover ~ .description::after {
+  content: "There's a hamper here, filled with various black clothes."
+}
