@@ -1,11 +1,36 @@
+* {
+background-color: black;
+}
+
 .ascii {
   font-family: monospace;
-  white-space: pre
+  white-space: pre;
+  color: white;
 }
+
+span, a {
+
+}
+
+p, header {
+color: white;
+}
+
+
 
 .description {
   white-space: normal;
-  width: 100%;
+  width: 700px;
+  position: absolute;
+  top: 400px;
+  margin-left: 100px;
+  margin-right: auto;
+
+}
+
+header {
+font-family: monospace;
+margin-left: 300px;
 }
 
 br { font-size: 400%; }
@@ -80,4 +105,12 @@ br { font-size: 400%; }
 
 .springs:hover ~ .description::after {
   content: "It's basically a metal rectangle with a springy net of metal inside. Placed on top of it are four pages of 8x10\" paper covered in drying ink."
+}
+
+.extradesks:hover ~ .description::after {
+  content: "There are a few extra desks and drawers in here. Dusty."
+}
+
+.storagewindow:hover ~ .description::after {
+  content: "The window looks across at Hopper, you think. You can't get close enough to the window to look down and see the street."
 }
